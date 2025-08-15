@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+.env/
+.envrc
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS X
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
+# Data & outputs
+/data/processed/
+/data/interim/
+*.tif.aux.xml
+*.lock
+
+# Logs
+logs/
+*.log
+
+# Pytest cache
+.pytest_cache/
