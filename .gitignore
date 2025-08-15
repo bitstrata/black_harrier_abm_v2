@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.pyc
 *.so
 *.egg-info/
 .venv/
@@ -20,7 +21,8 @@ __pycache__/
 .Trashes
 
 # Data & outputs
-/data/processed/
+data/raw/
+data/processed/
 /data/interim/
 *.tif.aux.xml
 *.lock
